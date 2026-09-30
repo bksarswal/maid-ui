@@ -1,0 +1,121 @@
+src/
+│
+├── app/
+│   │
+│   ├── layout.tsx
+│   ├── page.tsx
+│   │
+│   ├── login/
+│   │   └── page.tsx
+│   │
+│   ├── signup/
+│   │   └── page.tsx
+│   │
+│   ├── customer/
+│   │   ├── layout.tsx
+│   │   ├── dashboard/
+│   │   │   └── page.tsx
+│   │   ├── profile/
+│   │   │   └── page.tsx
+│   │   ├── bookings/
+│   │   │   └── page.tsx
+│   │   ├── payments/
+│   │   │   └── page.tsx
+│   │   └── reviews/
+│   │       └── page.tsx
+│   │
+│   └── maid/
+│       ├── layout.tsx
+│       ├── dashboard/
+│       │   └── page.tsx
+│       ├── profile/
+│       │   └── page.tsx
+│       ├── bookings/
+│       │   └── page.tsx
+│       ├── payments/
+│       │   └── page.tsx
+│       └── reviews/
+│           └── page.tsx
+│
+├── components/
+│   │
+│   ├── app/
+│   │   │
+│   │   ├── auth/
+│   │   │   ├── login-form.tsx
+│   │   │   ├── signup-form.tsx
+│   │   │   └── forgot-password-form.tsx
+│   │   │
+│   │   ├── customer/
+│   │   │   ├── dashboard.tsx
+│   │   │   ├── profile.tsx
+│   │   │   ├── bookings.tsx
+│   │   │   ├── payments.tsx
+│   │   │   └── reviews.tsx
+│   │   │
+│   │   ├── maid/
+│   │   │   ├── dashboard.tsx
+│   │   │   ├── profile.tsx
+│   │   │   ├── bookings.tsx
+│   │   │   ├── payments.tsx
+│   │   │   └── reviews.tsx
+│   │   │
+│   │   ├── booking/
+│   │   │   ├── booking-card.tsx
+│   │   │   ├── booking-form.tsx
+│   │   │   ├── booking-list.tsx
+│   │   │   ├── booking-details.tsx
+│   │   │   └── booking-status.tsx
+│   │   │
+│   │   ├── payment/
+│   │   │   ├── payment-card.tsx
+│   │   │   ├── payment-history.tsx
+│   │   │   └── payment-summary.tsx
+│   │   │
+│   │   ├── review/
+│   │   │   ├── review-card.tsx
+│   │   │   ├── review-form.tsx
+│   │   │   └── review-list.tsx
+│   │   │
+│   │   └── maid/
+│   │       ├── ── dashboard.tsx
+                ├── profile.tsx
+                ├── bookings.tsx
+                ├── payments.tsx
+                ├── reviews.tsx
+                ├── maid-card.tsx
+                ├── maid-list.tsx
+                ├── maid-filter.tsx
+                ├── maid-search.tsx
+└──              maid-details.tsx
+│   │
+│   ├── layout/
+│   │   ├── dashboard-layout.tsx
+│   │   ├── navbar.tsx
+│   │   ├── sidebar.tsx
+│   │   └── footer.tsx
+│   │
+│   ├── common/
+│   │   ├── logo.tsx
+│   │   ├── loader.tsx
+│   │   ├── empty-state.tsx
+│   │   ├── page-header.tsx
+│   │   ├── search-bar.tsx
+│   │   └── avatar.tsx
+│   │
+│   └── ui/
+│       └── shadcn components
+│
+├── lib/
+│   ├── axios.ts
+│   ├── http-interceptor.ts
+│   ├── auth.ts
+│   └── utils.ts
+│
+├── hooks/
+│
+├── types/
+│
+├── constants/
+│
+└── middleware.ts
